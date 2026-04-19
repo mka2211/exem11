@@ -439,6 +439,12 @@
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
+  .mt-\[5\] {
+    margin-top: 5;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
   .mt-auto {
     margin-top: auto;
   }
@@ -580,6 +586,15 @@
   .h-100 {
     height: calc(var(--spacing) * 100);
   }
+  .h-125 {
+    height: calc(var(--spacing) * 125);
+  }
+  .h-\[0px\] {
+    height: 0px;
+  }
+  .h-\[00px\] {
+    height: 00px;
+  }
   .h-\[1px\] {
     height: 1px;
   }
@@ -601,8 +616,17 @@
   .h-\[120px\] {
     height: 120px;
   }
+  .h-\[200px\] {
+    height: 200px;
+  }
   .h-\[500px\] {
     height: 500px;
+  }
+  .h-\[520px\] {
+    height: 520px;
+  }
+  .h-\[550px\] {
+    height: 550px;
   }
   .h-\[600px\] {
     height: 600px;
@@ -1469,6 +1493,9 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
   .text-\[32px\] {
     font-size: 32px;
   }
@@ -1557,8 +1584,23 @@
   .text-\[\#0f172a\] {
     color: #0f172a;
   }
+  .text-\[\#3f1b0b\] {
+    color: #3f1b0b;
+  }
+  .text-\[\#061B3A\] {
+    color: #061B3A;
+  }
   .text-\[\#05142b\] {
     color: #05142b;
+  }
+  .text-\[\#ff0000\] {
+    color: #ff0000;
+  }
+  .text-\[3\] {
+    color: 3;
+  }
+  .text-\[blue\] {
+    color: blue;
   }
   .text-\[px\] {
     color: px;
