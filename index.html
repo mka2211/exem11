@@ -108,6 +108,110 @@
     </div>
   </div></section>
 </section>
+<section class="bg-white py-10 md:py-20 font-sans overflow-x-hidden">
+    <div class="container mx-auto px-4 md:px-20">
+        
+        <h2 class="text-2xl md:text-3xl font-black text-[#0B1E3F] mb-8 md:mb-12 uppercase tracking-tight text-center md:text-left">
+            Процесс найма сотрудника
+        </h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-20 md:mb-24">
+            <script>
+                const days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                const gridContainer = document.currentScript.parentElement;
+                
+                days.forEach(day => {
+                    const isActive = day === 8;
+                    const card = document.createElement('div');
+                    // Добавил md:scale-105, чтобы на мобилках карточка не вылезала за края
+                    card.className = `p-6 rounded-xl border border-gray-100 shadow-sm transition-all ${isActive ? 'bg-[#0B1E3F] text-white shadow-xl md:scale-105 z-10' : 'bg-white text-[#0B1E3F]'}`;
+                    
+                    card.innerHTML = `
+                        <div class="text-lg font-black uppercase mb-4 tracking-wider">${day} ДЕНЬ</div>
+                        <ul class="space-y-3 text-[11px] font-bold uppercase opacity-80">
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check mt-0.5 text-[10px]"></i> 
+                                <span>Глубокий анализ</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check mt-0.5 text-[10px]"></i> 
+                                <span>Подписание договора</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check mt-0.5 text-[10px]"></i> 
+                                <span>Контрольный созвон</span>
+                            </li>
+                        </ul>
+                    `;
+                    gridContainer.appendChild(card);
+                });
+            </script>
+        </div>
 
+        <h2 class="text-2xl md:text-3xl font-black text-[#0B1E3F] mb-8 md:mb-12 uppercase tracking-tight text-center md:text-left">
+            Сравните сами
+        </h2>
+        
+        <div class="flex flex-col lg:flex-row gap-6 md:gap-8 items-stretch">
+            
+            <div class="flex-1 bg-white border border-gray-100 rounded-2xl p-6 md:p-12 shadow-sm">
+                <h3 class="text-gray-400 font-black uppercase tracking-[0.2em] mb-8 md:mb-10 text-sm md:text-lg">
+                    Самостоятельный подбор
+                </h3>
+                
+                <ul class="space-y-5 md:space-y-6 text-[#0B1E3F] font-semibold text-sm md:text-base">
+                    <li class="flex items-start gap-3 text-gray-500">
+                        <span class="text-gray-300">—</span>
+                        <p>Job сайты - от <span class="text-[#0B1E3F] font-black">29 000 ₽</span></p>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-500">
+                        <span class="text-gray-300">—</span>
+                        <p>Стоимость вашего часа (в среднем) - <span class="text-[#0B1E3F] font-black">600 ₽</span></p>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-500">
+                        <span class="text-gray-300">—</span>
+                        <p>Оклад кандидата на испытательный срок (2-3 мес.) - <span class="text-[#0B1E3F] font-black">100 000 ₽</span></p>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-500">
+                        <span class="text-gray-300">—</span>
+                        <p>Упущенная прибыль работодателя за 2 мес: <span class="text-[#0B1E3F] font-black">> 100 000 ₽</span></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-1 bg-[#0B1E3F] rounded-2xl p-6 md:p-12 text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute top-[-10%] right-[-10%] w-48 md:w-64 h-48 md:h-64 bg-white/5 rounded-full"></div>
+                
+                <div class="relative z-10">
+                    <h3 class="text-white font-black uppercase tracking-[0.2em] mb-8 md:mb-10 text-sm md:text-lg">
+                        Подбор с нами
+                    </h3>
+                    
+                    <ul class="space-y-6 md:space-y-8 text-sm md:text-base">
+                        <li class="flex items-start gap-4">
+                            <i class="fas fa-check mt-1 text-xs md:text-sm"></i>
+                            <p class="opacity-90 leading-relaxed">
+                                От <span class="font-black text-white">40 000 ₽</span> за подбор менеджера под ключ: и всего 2 часа времени интервью с финалистами
+                            </p>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <i class="fas fa-check mt-1 text-xs md:text-sm"></i>
+                            <p class="opacity-90 leading-relaxed">
+                                Выгода в финансах > <span class="font-black text-white">3 раза</span>
+                            </p>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <i class="fas fa-check mt-1 text-xs md:text-sm"></i>
+                            <p class="opacity-90 leading-relaxed">
+                                <span class="font-black text-white">Минимум рисков</span> подбора "не того" и <span class="font-black text-white">ущерба</span> от ошибок менеджера
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 </body>
 </html>
